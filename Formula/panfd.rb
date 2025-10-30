@@ -6,6 +6,7 @@ class Panfd < Formula
   license ""
 
   depends_on "pandoc"
+  depends_on "typst"
 
   def install
     # install the shell script to homebrew's bin directory
@@ -15,3 +16,4 @@ class Panfd < Formula
     share.install Dir["share/*"]
   end
 end
+

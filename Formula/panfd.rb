@@ -16,4 +16,3 @@ class Panfd < Formula
     share.install Dir["share/*"]
   end
 end
-

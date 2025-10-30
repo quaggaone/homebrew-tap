@@ -1,18 +1,21 @@
-# Quaggaone Tap
+# quaggaone tap
 
-## How do I install these formulae?
+## install formulae from here
 
 `brew install quaggaone/tap/<formula>`
 
-Or `brew tap quaggaone/tap` and then `brew install <formula>`.
+or `brew tap quaggaone/tap` and then `brew install <formula>`
 
-Or, in a `brew bundle` `Brewfile`:
+### using a Brewfile
+
+through the command `brew bundle install Brewfile`:
 
 ```ruby
 tap "quaggaone/tap"
 brew "<formula>"
 ```
 
-## Documentation
+## documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+

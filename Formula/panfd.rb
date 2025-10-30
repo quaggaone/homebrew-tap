@@ -10,5 +10,7 @@ class Panfd < Formula
   def install
     # install the shell script to homebrew's bin directory
     bin.install "bin/panfd.sh" => "panfd"
+
+    (lib).install Dir["lib/*"]
   end
 end

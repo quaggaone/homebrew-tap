@@ -6,4 +6,9 @@ class Panfd < Formula
   license ""
 
   depends_on "pandoc"
+
+  def install
+    # install the shell script to homebrew's bin directory
+    bin.install "bin/panfd.sh" => "panfd"
+  end
 end

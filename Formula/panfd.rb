@@ -2,7 +2,7 @@ class Panfd < Formula
   desc "Shell script to convert MD to PDF using pandoc and custom template"
   homepage "https://github.com/quaggaone/felixdim-format-pandoc"
   url "https://github.com/quaggaone/felixdim-format-pandoc/archive/refs/tags/v0.0.2.tar.gz"
-  sha256 "3c4c96dc94f6067283f896392be53a67a719bd860b7b0f9a57b9dbddc5e415e2"
+  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   license ""
 
   depends_on "pandoc"
@@ -11,7 +11,7 @@ class Panfd < Formula
     # install the shell script to homebrew's bin directory
     bin.install "bin/panfd.sh" => "panfd"
 
-    (lib).install Dir["lib/*"]
-    (share).install Dir["share/*"]
+    lib.install Dir["lib/*"]
+    share.install Dir["share/*"]
   end
 end

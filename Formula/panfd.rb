@@ -5,9 +5,9 @@ class Panfd < Formula
   sha256 "7f8850e9a7a2e182650fffcb3dcc369f513a2e80b6d4e3ffc01258d9c6f134bf"
   license ""
 
+  depends_on "felixdim-format-typst"
   depends_on "pandoc"
   depends_on "typst"
-  depends_on "felixdim-format-typst"
 
   def install
     # install the shell script to homebrew's bin directory

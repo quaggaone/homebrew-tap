@@ -1,8 +1,8 @@
 class FelixdimFormatTypst < Formula
   desc "Collection of personal Typst templates in felixdim style"
   homepage "https://github.com/quaggaone/felixdim-format-typst"
-  url "https://github.com/quaggaone/felixdim-format-typst/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "07701d482b2eb69335d5e12758696d1f86e762e9f4f001b013243854d23f1e49"
+  url "https://github.com/quaggaone/felixdim-format-typst/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "07005cce519852a5be8aa5ad75bb422e7b98b152d4679fd3fdbb50d547a41f49"
   license ""
 
   depends_on "typst"

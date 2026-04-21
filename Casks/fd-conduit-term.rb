@@ -4,7 +4,7 @@ cask "fd-conduit-term" do
 
   url "https://github.com/quaggaone/felixdim-font-conduit/archive/refs/tags/v#{version}.tar.gz"
   name "fd-conduit-term"
-  desc "Custom build of utility font Iosevka. It's my go-to choice for terminal and code. It lays the conduit between information stored and perceived."
+  desc "Custom build of utility font Iosevka"
   homepage "https://github.com/quaggaone/felixdim-font-conduit"
 
   font "felixdim-font-conduit-#{version}/dist/fd-conduit-term/TTF-Unhinted/fd-conduit-term-Bold.ttf"

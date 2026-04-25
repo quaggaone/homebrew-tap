@@ -1,8 +1,8 @@
 class Panfd < Formula
   desc "Shell script to convert MD to PDF using pandoc and custom template"
   homepage "https://github.com/quaggaone/felixdim-format-pandoc"
-  url "https://github.com/quaggaone/felixdim-format-pandoc/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "ef4c07b79f721fd1c01707aa994a0be8f81b50958e0fe271928b8c6063d303c5"
+  url "https://github.com/quaggaone/felixdim-format-pandoc/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "32c895e2a92eabfb9fec301c0b08c08db530a90f20382fc8ec8c7b97d9c6a13c"
   license ""
 
   depends_on "felixdim-format-typst"

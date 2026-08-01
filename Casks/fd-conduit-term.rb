@@ -1,6 +1,6 @@
 cask "fd-conduit-term" do
-  version "0.0.1"
-  sha256 "ee0ab66783bc6a5e90e5605f7799c258f39662d271a9c829dc76d39eda4f5710"
+  version "0.1.0"
+  sha256 "ec3dcf7846182be1897fe4b211e1e49bd88aeb739b087369c080d3d34ddcea05"
 
   url "https://github.com/quaggaone/felixdim-font-conduit/archive/refs/tags/v#{version}.tar.gz"
   name "fd-conduit-term"
